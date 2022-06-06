@@ -1,0 +1,20 @@
+{
+  "name": "cadencedrones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Ryan Kunkel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
