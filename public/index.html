@@ -58,7 +58,6 @@
                         <div class="carousel-caption d-none d-md-block">
                             <h1 class="carousel-title">Drone Imaging,<br> Done Right</h1>
                             <a class="btn btn-primary btn-rounded" style="cursor: pointer">learn more</a>
-                                
                         </div>
                     </div>
                     <!-- <div class="carousel-item">
@@ -87,6 +86,7 @@
                 <div class="row justify-content-between">
                     <div class="col">
                         <a class="d-block subtitle"><i class="ti-microphone pr-2"></i> (616)-886-5022</a>
+
                     </div>
                     <!-- <div class="col">
                         <h6 class="subtitle font-weight-normal mb-2">Social Media</h6>
@@ -377,7 +377,14 @@
                         </div>
                         <div class="form-group">
                             <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Your Message"></textarea>
+                            
+                            <div
+                                class="g-recaptcha"
+                                data-sitekey="6LcZm6UgAAAAAKRGNAn9xokhwaFPHzYPu8iEIqFI"
+                            ></div>
+                        
                         </div>
+                        
                         <div class="form-group">
                             <input type="submit" class="btn btn-primary btn-block" value="Send Message">
                         </div>
@@ -394,7 +401,7 @@
                             <!-- <p class="py-2"><i class="ti-location-pin"></i> 12345 Fake ST NoWhere AB Country</p> -->
                             
                             <p class="py-2"><i class="ti-microphone"></i> (616) 886-5022</p>
-
+                            <p class="py-2"><a class="d-block subtitle"><i class="ti-email pr-2"></i> rykunk21@gmail.com</a></p>
                         </li>
                     </ul> 
                 </div>
@@ -419,6 +426,10 @@
             </footer>
         </div>
     </section>
+
+    <!-- g-recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 	
 	<!-- core  -->
     <script src="vendors/jquery/jquery-3.4.1.js"></script>

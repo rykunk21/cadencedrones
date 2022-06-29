@@ -6847,7 +6847,7 @@ a.close.disabled {
 
 .carousel-item {
   position: relative;
-  display: none;
+  display: flex;
   float: left;
   width: 100%;
   margin-right: -100%;
@@ -6857,6 +6857,10 @@ a.close.disabled {
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+
+.carousel-item img {
+  height: 50vh;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11614,7 +11618,7 @@ pre .code {
 .header .carousel .carousel-caption {
   position: static;
   text-align: left;
-  display: block !important;
+  display: flex;
 }
 
 .header-title {
@@ -11702,4 +11706,10 @@ pre .code {
 .section.bg-overlay {
   background: #2C3E50;
   color: #fff;
+}
+
+
+.g-recaptcha{
+  width: 302px;
+  margin: 10px auto;
 }
